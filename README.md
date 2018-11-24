@@ -11,6 +11,11 @@ SVM (Support vector machine) is an efficient classification method when the feat
 KNN or k-nearest neighbours is the simplest classification algorithm. This classification algorithm does not depend on the structure of the data. Whenever a new example is encountered, its k nearest neighbours from the training data are examined. Distance between two examples can be the euclidean distance between their feature vectors.
 # Naive Bayes classifier
 Naive Bayes classification method is based on Bayes’ theorem. It is termed as ‘Naive’ because it assumes independence between every pair of feature in the data. Let (x1, x2, …, xn) be a feature vector and y be the class label corresponding to this feature vector.
+# Classifier Results
+Decision tree classifier give an accuracy of 17.67% with 5025 train and 51 test data
+SVM classification give an accuracy of 50.67% with 5025 train and 51 test data
+KNN  classification give an accuracy of 66.67% with 5025 train and 51 test data
+Naive Bayes classification give an accuracy of 96.07% with 5025 train and 51 test data
 # References –
 
     http://scikit-learn.org/stable/modules/naive_bayes.html
